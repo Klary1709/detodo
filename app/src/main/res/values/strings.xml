@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Detodo</string>
+    <string name="Categoria">Comida</string>
+    <string name="num_negocios">24  Negocios</string>
+    <string name="lorem"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryb jmn, jax XzaZsdxzx asdszA </string>
+    <string name="label_registrate">¿No tienes una cuenta? <b>Regístrate</b></string>
+    <string name="label_registrar_facebook">Registrarme con Facebook</string>
+    <string name="label_registrar_google">Registrarme con Google</string>
+    <string name="label_registrar">Registrarme</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="label_ingresar_message">¿Ya tienes una cuenta? Ingresar</string>
+    <string name="label_ingresar">Ingresar</string>
+    <string name="label_registrar_message">¿No tienes una cuenta? Registrar</string>
+    <string name="error_login_email">Correo y/o contraseña incorrectos</string>
+    <string name="error_registrar_email">Hubo un error en el registro</string>
+    <string name="error__email_usado">El email ya está registrado. Intente ingresar a su cuenta</string>
+    <string name="success_registrar_email">Cuenta creada exitosamente</string>
+    <string name="success_signout">Sesión finalizada</string>
+    <string name="facebook_app_id">2719796844942992</string>
+    <string name="fb_login_protocol_scheme">fb2719796844942992</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="usuario_invitado">Invitado</string>
+</resources>

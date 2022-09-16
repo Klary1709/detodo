@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5CB3C2</color>
+    <color name="colorPrimaryDark">#01587B</color>
+    <color name="colorAccent">#F3BA00</color>
+    /// COLORES DE FIGMA
+
+    <color name="naranja">#F38550</color>
+    <color name="NegroLetra">#4B4A4A</color>
+    <color name="magenta">#B63458</color>
+    <color name="rosado">#EC6684</color>
+    <color name="rosado_opacidad">#ECBABA</color>
+    <color name="ocre">#81002F</color>
+    <color name="salmon">#FFB67E</color>
+    <color name="ladrillo">#E75D4A</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="Negro">#9C000000</color>
+    <color name="gris">#CCCCCC</color>
+
+</resources>

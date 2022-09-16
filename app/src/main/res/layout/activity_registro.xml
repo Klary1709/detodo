@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="32dp"
+    android:orientation="vertical"
+    tools:context=".RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_detodo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:text="Crea una cuenta"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/edittextEmailRegistrar"
+            style="@style/LoginEdit"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hint_email" />
+
+        <EditText
+            android:id="@+id/edittextContrasenaRegistrar"
+            style="@style/LoginEdit"
+            android:inputType="textPassword"
+            android:hint="@string/hint_contrasena" />
+
+        <Button
+            android:id="@+id/buttonRegistrarme"
+            style="@style/LoginButton"
+            android:text="@string/label_registrar"
+            android:textColor="@color/blanco"
+            android:onClick="signupEmail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="O crear cuenta con:"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone">
+            <ImageButton
+                android:id="@+id/buttonGoogleRegistrar"
+                style="@style/CircleButton"
+                android:layout_margin="4dp"
+                android:src="@drawable/google"/>
+            <ImageButton
+                android:id="@+id/buttonFacebookRegistrar"
+                style="@style/CircleButton"
+                android:layout_margin="4dp"
+                android:src="@drawable/facebook"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/textviewIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openIngresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Ya tienes una cuenta? " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

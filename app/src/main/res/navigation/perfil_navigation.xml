@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/perfil_navigation"
+    app:startDestination="@id/contactosFragment">
+
+    <fragment
+        android:id="@+id/contactosFragment"
+        android:name="com.uso.detodo.ContactosFragment"
+        android:label="fragment_contactos"
+        tools:layout="@layout/fragment_contactos" >
+        <action
+            android:id="@+id/action_contactosFragment_to_productosFragment"
+            app:destination="@id/productosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.uso.detodo.ProductosFragment"
+        android:label="fragment_productos"
+        tools:layout="@layout/fragment_productos" >
+        <action
+            android:id="@+id/action_productosFragment_to_ofertasFragment"
+            app:destination="@id/ofertasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ofertasFragment"
+        android:name="com.uso.detodo.OfertasFragment"
+        android:label="fragment_ofertas"
+        tools:layout="@layout/fragment_ofertas" >
+        <action
+            android:id="@+id/action_ofertasFragment_to_contactosFragment"
+            app:destination="@id/contactosFragment" />
+    </fragment>
+</navigation>

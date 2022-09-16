@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "311491740673",
+    "firebase_url": "https://detodo-app.firebaseio.com",
+    "project_id": "detodo-app",
+    "storage_bucket": "detodo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311491740673:android:20508d08072097ea6eac00",
+        "android_client_info": {
+          "package_name": "com.uso.detodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311491740673-oj7nhse145l6lurgcksac0gr5vk136g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uso.detodo",
+            "certificate_hash": "39cc55438de3d0407eb30474de070a92d337800c"
+          }
+        },
+        {
+          "client_id": "311491740673-8mgjs4a3chsph4pjd8h5jvep52qtce5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASbUDmDyBf5qN5XTuv9UFyib23k8LWXjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311491740673-8mgjs4a3chsph4pjd8h5jvep52qtce5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
